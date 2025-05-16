@@ -5,6 +5,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.niklauswetter.mccourse.MCCourseMod;
+import net.niklauswetter.mccourse.block.custom.FuelItem;
 import net.niklauswetter.mccourse.item.custom.ChainsawItem;
 
 public class ModItems {
@@ -21,6 +22,9 @@ public class ModItems {
 
     public static final DeferredItem<Item> TOMATO =
             ITEMS.registerItem("tomato", Item::new, new Item.Properties().food(ModFoodProperties.TOMATO));
+
+    public static final DeferredItem<Item> FROSTFIRE_ICE =
+            ITEMS.registerItem("frostfire_ice",properties -> new FuelItem(properties, 800), new Item.Properties());
 
 
 
