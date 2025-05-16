@@ -1,4 +1,4 @@
-package net.niklauswetter.mccourse.block.custom;
+package net.niklauswetter.mccourse.item.custom;
 
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
