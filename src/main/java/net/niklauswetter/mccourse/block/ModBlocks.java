@@ -8,6 +8,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.niklauswetter.mccourse.MCCourseMod;
+import net.niklauswetter.mccourse.block.custom.MagicBlock;
 import net.niklauswetter.mccourse.item.ModItems;
 
 import java.util.function.Supplier;
@@ -28,6 +29,8 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of().strength(4F).requiresCorrectToolForDrops()));
     public static final DeferredBlock<Block> END_BLACK_OPAL_ORE = registerBlock("end_black_opal_ore",
             () -> new Block(BlockBehaviour.Properties.of().strength(4F).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<Block> MAGIC_BLOCK = registerBlock("magic_block",
+            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(4F).requiresCorrectToolForDrops()));
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
