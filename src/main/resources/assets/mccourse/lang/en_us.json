@@ -5,6 +5,7 @@
   "item.mccourse.tomato": "Tomato",
   "item.mccourse.frostfire_ice": "Frostfire Ice",
 
+
   "block.mccourse.black_opal_block": "Black Opal Block",
   "block.mccourse.raw_black_opal_block": "Raw Black Opal Block",
   "block.mccourse.black_opal_ore": "Black Opal Ore",
@@ -24,13 +25,16 @@
   "block.mccourse.black_opal_fence_gate": "Black Opal Fence Gate",
   "block.mccourse.black_opal_wall": "Black Opal Wall",
 
+  "block.mccourse.black_opal_door": "Black Opal Door",
+  "block.mccourse.black_opal_trapdoor": "Black Opal Trapdoor",
+
+
   "tooltip.mccourse.chainsaw.tooltip.shift": "Press §eShift§r for more Information",
   "tooltip.mccourse.chainsaw.tooltip.1": "This chainsaw is awesome and will cut down trees.",
   "tooltip.mccourse.chainsaw.tooltip.2": "§oChainsaw go vroom!§r",
   "tooltip.mccourse.tomato.tooltip.1": "Tomato; Tomato",
 
   "tooltip.mccourse.magic_block.tooltip.1": "This block is §9§kMAGICAL§r",
-
 
 
   "itemGroup.mccourse.black_opal_items_tab": "Black Opal Items",
