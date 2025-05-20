@@ -1,9 +1,13 @@
 package net.niklauswetter.mccourse.datagen;
 
 import net.minecraft.data.PackOutput;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.level.block.Block;
 import net.neoforged.neoforge.client.model.generators.ItemModelProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
+import net.neoforged.neoforge.registries.DeferredBlock;
 import net.niklauswetter.mccourse.MCCourseMod;
+import net.niklauswetter.mccourse.block.ModBlocks;
 import net.niklauswetter.mccourse.item.ModItems;
 
 public class ModItemModelProvider extends ItemModelProvider {
@@ -19,5 +23,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.TOMATO.get());
         basicItem(ModItems.FROSTFIRE_ICE.get());
 
+        buttonItem(ModBlocks.BLACK_OPAL_BUTTON, ModBlocks.BLACK_OPAL_BLOCK);
+    }
+
+    public void buttonItem(DeferredBlock<Block> block, DeferredBlock<Block> baseBlock) {
+        this.withExistingParent(block.getId().getPath(), mcLoc("block/button_inventory"))
+                .texture("texture", ResourceLocation.fromNamespaceAndPath(MCCourseMod.MOD_ID,
+                        "block/" + baseBlock.getId().getPath()));
     }
 }
