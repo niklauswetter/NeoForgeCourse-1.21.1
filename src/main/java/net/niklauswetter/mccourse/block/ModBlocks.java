@@ -23,14 +23,14 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of().strength(4F).requiresCorrectToolForDrops()));
     public static final DeferredBlock<Block> BLACK_OPAL_ORE = registerBlock("black_opal_ore",
             () -> new Block(BlockBehaviour.Properties.of().strength(4F).requiresCorrectToolForDrops()));
-    public static final DeferredBlock<Block> DEEPSLATE_BLACK_OPAL_ORE = registerBlock("deepslate_black_opal_ore",
+    public static final DeferredBlock<Block> BLACK_OPAL_DEEPSLATE_ORE = registerBlock("black_opal_deepslate_ore",
             () -> new Block(BlockBehaviour.Properties.of().strength(4F).requiresCorrectToolForDrops()));
-    public static final DeferredBlock<Block> NETHER_BLACK_OPAL_ORE = registerBlock("nether_black_opal_ore",
+    public static final DeferredBlock<Block> BLACK_OPAL_END_ORE = registerBlock("black_opal_end_ore",
             () -> new Block(BlockBehaviour.Properties.of().strength(4F).requiresCorrectToolForDrops()));
-    public static final DeferredBlock<Block> END_BLACK_OPAL_ORE = registerBlock("end_black_opal_ore",
+    public static final DeferredBlock<Block> BLACK_OPAL_NETHER_ORE = registerBlock("black_opal_nether_ore",
             () -> new Block(BlockBehaviour.Properties.of().strength(4F).requiresCorrectToolForDrops()));
     public static final DeferredBlock<Block> MAGIC_BLOCK = registerBlock("magic_block",
-            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(4F).requiresCorrectToolForDrops()));
+            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(4F).requiresCorrectToolForDrops().noLootTable()));
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

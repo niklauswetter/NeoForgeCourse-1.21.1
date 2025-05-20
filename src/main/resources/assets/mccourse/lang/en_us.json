@@ -8,9 +8,9 @@
   "block.mccourse.black_opal_block": "Black Opal Block",
   "block.mccourse.raw_black_opal_block": "Raw Black Opal Block",
   "block.mccourse.black_opal_ore": "Black Opal Ore",
-  "block.mccourse.deepslate_black_opal_ore": "Black Opal Deepslate Ore",
-  "block.mccourse.nether_black_opal_ore": "Black Opal Nether Ore",
-  "block.mccourse.end_black_opal_ore": "Black Opal End Ore",
+  "block.mccourse.black_opal_deepslate_ore": "Black Opal Deepslate Ore",
+  "block.mccourse.black_opal_end_ore": "Black Opal End Ore",
+  "block.mccourse.black_opal_nether_ore": "Black Opal Nether Ore",
   "block.mccourse.magic_block": "Magic Block",
 
   "tooltip.mccourse.chainsaw.tooltip.shift": "Press §eShift§r for more Information",
