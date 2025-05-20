@@ -11,14 +11,18 @@
   "block.mccourse.black_opal_deepslate_ore": "Black Opal Deepslate Ore",
   "block.mccourse.black_opal_end_ore": "Black Opal End Ore",
   "block.mccourse.black_opal_nether_ore": "Black Opal Nether Ore",
+
   "block.mccourse.magic_block": "Magic Block",
+
+  "block.mccourse.black_opal_stairs": "Black Opal Stairs",
+  "block.mccourse.black_opal_slab": "Black Opal Slab",
 
   "tooltip.mccourse.chainsaw.tooltip.shift": "Press §eShift§r for more Information",
   "tooltip.mccourse.chainsaw.tooltip.1": "This chainsaw is awesome and will cut down trees.",
   "tooltip.mccourse.chainsaw.tooltip.2": "§oChainsaw go vroom!§r",
   "tooltip.mccourse.tomato.tooltip.1": "Tomato; Tomato",
 
-  "tooltip.mccourse.magic_bbllock.tooltip.1": "This block is §9§kMAGICAL§r",
+  "tooltip.mccourse.magic_block.tooltip.1": "This block is §9§kMAGICAL§r",
 
 
 

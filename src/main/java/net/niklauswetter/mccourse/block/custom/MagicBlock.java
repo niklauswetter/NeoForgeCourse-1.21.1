@@ -49,7 +49,7 @@ public class MagicBlock extends Block {
 
     @Override
     public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-        tooltipComponents.add(Component.translatable("tooltip.mccourse.magic_bbllock.tooltip.1"));
+        tooltipComponents.add(Component.translatable("tooltip.mccourse.magic_block.tooltip.1"));
 
         super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
     }
